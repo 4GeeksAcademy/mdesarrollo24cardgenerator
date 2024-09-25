@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #f0f0f0;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 2rem;
+}
+
+.number {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.icon-top,
+.icon-bottom {
+  font-size: 2rem;
+}
+
+.icon-bottom {
+  transform: rotate(180deg);
+}
+
+/* Estilos de los diferentes palos */
+.heart,
+.diamond {
+  color: red;
+}
+
+.spade,
+.club {
+  color: black;
+}
